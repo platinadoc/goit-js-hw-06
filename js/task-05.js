@@ -3,4 +3,4 @@ const refs = {
   span: document.querySelector('#name-output'),
 }
 
-refs.input.addEventListener('input', (event) => {!event.currentTarget.value ? refs.span.textContent = 'незнакомец' : refs.span.textContent = event.currentTarget.value})
+refs.input.addEventListener('input', (event) => {!event.currentTarget.value ? refs.span.textContent = 'Anonymous' : refs.span.textContent = event.currentTarget.value})
